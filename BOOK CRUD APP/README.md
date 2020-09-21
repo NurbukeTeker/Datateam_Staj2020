@@ -17,7 +17,7 @@ If we want to change the name of a book, we can edit the books we want to change
 With the delete button next to the sorted books, the selected book will be automatically deleted from the database and will not be displayed.
 
 # Simple One Page Web Interface
-![image info](image.png)
+![image info](image_n.png)
 
 
 
