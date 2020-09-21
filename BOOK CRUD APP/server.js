@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 
 
 app.get('/books', function(req,res){
-    console.log("--")
+    console.log("get request book--")
 
     db.books.find(function(err,docs){
         console.log(docs);
@@ -35,7 +35,7 @@ app.delete("/books/:id", function(req,res){
 
 app.put("/books/:id", function(req, res){
     var id = req.params.id;
-    console.log("HERE:" + req.body.name)
+    console.log("HERE is:" + req.body.name)
     db.books.findAndModify({
         query: {_id: mongojs.ObjectId(id)},
         update: {$set: {name: req.body.name}},
@@ -44,6 +44,7 @@ app.put("/books/:id", function(req, res){
         }
     )
 })
+
 
 app.listen(5000);
 console.log("Server running on 5000")
