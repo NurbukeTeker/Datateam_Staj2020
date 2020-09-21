@@ -1,11 +1,11 @@
 angular.module('booksApp', [])
     .controller('AppController', function ($scope, $http) {
-        console.log(" from controller")
+        console.log("here controller")
         var currentId = 1;
 
         var bring = function() {
             $http.get('/books').then(function(response){
-            console.log("I got the data I requested")
+            console.log("I got the book data I requested")
             $scope.books = response.data;
         })
     }
