@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tahoma";
+    font-size: 16px;
+    background-image: url("library.jpg");
+    
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+}
+
+.container{
+    width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    margin-top: 50px;
+    border-bottom: 2px solid wheat;
+}
+
+.top-field{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid wheat;
+    clear: both;
+}
+
+.read-button{
+    margin: 30px 0px;
+    display: inline-block;
+}
+
+
+
+.input-field{
+    margin-top: 30px;
+    margin-right: 0;
+    display: block;
+    border-style: none;
+    float: right;
+}
+
+#create-form #post-button{
+    background-color: #33d857;
+    padding: 12px 24px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 15%;
+}
+
+#create-input{
+    padding: 12px 24px;
+    background-color: floralwhite;
+    border-radius: 20%;
+    float: right;
+}
+
+thead{
+    font-size: 20px;
+}
+
+#nameHeader{
+    text-align: left;
+}
+
+#name-input{
+    padding: 8px 15px;
+    background-color: floralwhite;
+    border-radius: 20%;
+}
+
+#update-button{
+    background-color: #24a4c4;
+    padding: 8px 15px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    border-radius:15%;
+    margin-right: 5px;
+}
+
+#delete-button{
+    background-color: #ca0a0a;
+    padding: 8px 15px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 15%;
+    margin-right: 5px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="booksApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="/controller/controller.js"></script>
+    <title style="color:white" ,style="text-align:center">  Book CRUD APP 
+    </title>
+</head>
+
+<body>
+    <div class="container" ng-controller="AppController">
+        <div class="header" >
+          <center> <h1 style="color:white" >
+            <font face = "Times New Roman" > Book CRUD APP</font><br />
+            
+           </h1></center> 
+        </div>
+        
+        <div class="center">
+        <div class="top-field">
+            <div class="input-field">
+                <form id="create-form"> <!--POST/CREATING PRODUCT-->
+                    <input type="text" id="create-input" ng-model="product.name">
+                    <button id="post-button" ng-click="createProduct()">      <font face = "Times New Roman" >  Create Book </font><br /></button>
+                </form>
+            </div>
+            
+            <div class="read-button">
+               
+            </div>
+        </div>
+            
+            
+            
+        </div>
+
+            
+        <table>
+            <thead>
+                <tr>
+                    <th>               </th>
+                    <th>                      <font face = "Times New Roman" >  Book ID</font><br /> </th>
+                    <th id="nameHeader">
+                        <font face = "Times New Roman" >  Book Name</font><br /></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="list-items" ng-repeat="book in books">
+                    <td><button id="update-button" ng-model="book.name" ng-click="updateProduct(book._id)">
+                        <font face = "Times New Roman" >  Book Update</font><br /></button></td>
+
+                    <td>{{book.id}}</td>
+                    <td><input id="name-input" type="text" ng-model="book.name"></td>
+                    <td><button id="delete-button" ng-click="remove(book._id)">
+                     <font face = "Times New Roman" >  Book Delete</font><br />
+                    </button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+
+    </div>
+
+
+
+
+</body>
+
+</html>
