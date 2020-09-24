@@ -1,0 +1,20 @@
+body { 
+	color: #421; font-weight: bold; font-size: 18px; background: rgb(126, 228, 106); 
+	background-image: url("buzz.jpg"); background-repeat: repeat-y; 
+}
+span { 
+	color: rgb(255, 255, 255) 
+} 
+::-webkit-input-placeholder { 
+	color: rgb(255, 255, 255) 
+}
+#main { 
+	position: fixed; top: 40%; right: 60px; width: 400px; 
+	border: 0px solid #421; padding: 40px; 
+}
+#main div { 
+	margin: 10px; 
+} 
+#input { 
+	border: 0; background: #a056a0; padding: 5px; border: 1px solid rgb(58, 26, 100); 
+}

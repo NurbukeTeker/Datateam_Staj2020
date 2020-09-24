@@ -1,0 +1,30 @@
+var trigger = [
+	["Merhaba","Selam"], 
+	["Nasılsın", "nasıl gidiyor", "hayat nasıl gidiyor"],
+	["ne yapıyorsun", "neler oluyor"],
+	["kaç yaşındasın"],
+	["kimsin", "insan mısın", "robot musun", "İnsan mısın robot musun"],
+	["Seni kim yarattı", "seni kim yaptı"],
+	["isim lütfen",  "adın nedir", "adını öğrenebilir miyim", "adın ne"],
+	["seni seviyorum"],
+	["mutlu", "iyi"],
+	["kötü", "sıkıcı", "yorgun"],
+	["bana yardım et", "bana hikaye anlat", "bana espri yap"],
+	["ha", "evet", "tamam", "tamam", "iyi", "teşekkürler", "teşekkür ederim"],
+	["bay", "görüşürüz", "hoşçakal", "sonra görüşürüz"]
+];
+var reply = [
+	["Merhaba","Selam"], 
+	["İyidir", "Gayet iyi", "Fantastik"],
+	["Fazla birşey değil", "Uykuya gidiyorum", "Tahmin edebilir misin ?", "Aslında pek bilmiyorum."],
+	["Yepyeniyim"],
+	["Sadece robotum.", "Ben botum.Sen kimsin ?"],
+	["Nurbüke", "Benim Tanrım"],
+	["Ben LoveBot", "Adım LoveBot"],
+	["Ben de seni seviyorum", "Ben de seni"],
+	["Hiç kötü hissettin mi?", "Bunu duyduğuma sevindim."],
+	["Neden?", "Neden? Böyle yapmamalısın.", "Televizyon izlemeyi dene."],
+	["I will", "What about?"],
+	["Bana hikaye anlat.", "Bana espri yap.", "Bana kendinden bahset.", "Hoşgeldin."],
+	["Bay", "Görüşürüz", "Sonra görüşürüz"]
+];
