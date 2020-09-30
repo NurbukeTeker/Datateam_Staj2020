@@ -1,4 +1,4 @@
-# Talk with Buzz
+# ChatApp_Simple
 
 This chat application simply provides a chat environment where 2 or more users can talk to each other by changing names.
 
