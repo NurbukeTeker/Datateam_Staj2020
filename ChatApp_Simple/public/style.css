@@ -39,7 +39,7 @@ div#change_username {
 }
 
 section#chatroom {
-    border: 5px inset #f16c14;
+    border: 5px inset #db6eb7;
     height: 85%;
     overflow: auto;
 }
@@ -86,9 +86,9 @@ p.message {
 }
 
 .message:nth-child(even) {
-    background-color: #e6952d;
+    background-color: #a50ed3;
 }
 
 .message:nth-child(odd) {
-    background-color: #3694d3;
+    background-color: #57d339;
 }
